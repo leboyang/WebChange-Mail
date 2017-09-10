@@ -6,4 +6,5 @@ num=`cat /root/go.html| tail -n +328 | head -n 62 | grep 'qty' | wc -l`
 if [ $num -gt 0 ];
  then
    echo "very good"|mailx -s "good" 155########@wo.cn
+   crontab -r
 fi 
