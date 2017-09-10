@@ -1,2 +1,2 @@
 # WebChange-Mail
-Web Change Notifications By Email
+Web Change Notifications By Mail
